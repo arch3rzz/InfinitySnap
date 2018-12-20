@@ -1,0 +1,23 @@
+{
+  "name": "Infinity Snap",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "this makes those other pesky players vanish in a snap",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Inject!"
+  },
+  "permissions": [
+    "https://kringlecon.com/*",
+    "http://kringlecon.com/*",
+    "tabs"
+  ],
+  "icons": {"16":"icon16.png",
+			"48":"icon48.png",
+			"128":"icon128.png"}
+}
