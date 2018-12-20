@@ -9,6 +9,6 @@
 		x[y].style.visibility="hidden";
 	}
 
-	alert('I dont feel so good Mr. Stark');
+	alert(' Mr. Stark I dont feel so good.');
 
 })();
